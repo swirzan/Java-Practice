@@ -1,8 +1,13 @@
 public class PositiveNegativeZeroNumberChallenge {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        checkNumber(12);
+        checkNumber(-9);
+        checkNumber(0);
     }
-
+    //Output
+    //positive
+    //negative
+    //zero
 
     public static void checkNumber(int number) {
         if (number > 0) {
