@@ -7,6 +7,10 @@ public class EqualSumChecker {
         System.out.println(test2);
         System.out.println(test3);
     }
+    //Output
+    //false
+    //true
+    //true
 
     public static boolean hasEqualSum(int numOne, int numTwo, int numThree) {
         if (numOne + numTwo == numThree) {
