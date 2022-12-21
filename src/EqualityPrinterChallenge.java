@@ -1,7 +1,15 @@
 public class EqualityPrinterChallenge {
     public static void main(String[] args) {
-        printEqual(-1, 1, 1);
+        printEqual(1, 1, 1);
+        printEqual(1, 1, 2);
+        printEqual(-1, -1, -1);
+        printEqual(1, 2, 3);
     }
+    //Outpput
+    //All numbers are equal
+    //Neither all are equal nor different
+    //Invalid Value
+    //All numbers are different
 
     public static void printEqual(int a, int b, int c) {
         if (a < 0 || b < 0 || c < 0) {
