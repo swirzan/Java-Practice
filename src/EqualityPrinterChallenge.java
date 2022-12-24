@@ -5,7 +5,7 @@ public class EqualityPrinterChallenge {
         printEqual(-1, -1, -1);
         printEqual(1, 2, 3);
     }
-    //Outpput
+    //Output
     //All numbers are equal
     //Neither all are equal nor different
     //Invalid Value
